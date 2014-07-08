@@ -26,7 +26,7 @@ Authors: Sebastian Raschka and Vahid Mirjalili
 	
 ### 5 Dividing into Test and training data sets  
 	
-- randomly divide into 60% training and 40% test data set	
+- randomly divide into 60% training and 40% test data set [https://archive.ics.uci.edu/ml/datasets/Iris]	
 - after we did it in Python and R, we save either version as CSV so that the exact same test and training datasets are used for the following tasks in Python and R  
 	
 ### 6 Feature Scaling - Standardizing
@@ -40,12 +40,13 @@ Authors: Sebastian Raschka and Vahid Mirjalili
 
 - 2D scatter plot after the PCA to compare results
 
-### 8 Classification using SVM
+### 8 Classification using (Naive) Bayes' Classifier
 
 
 #### 8.1 Training the classifier
 
 - training the classifier on the 2D PCA-transformed training data set
+- mention that we don't use cross-validation since we want to use 2 features anyway (nicer to plot, our article is more for exemplary purposes rather then best possible classification)
 
 #### 8.2 Plotting decision regions
 
